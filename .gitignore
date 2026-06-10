@@ -6,16 +6,24 @@ dist/
 build/
 venv/
 .venv/
+*.egg
+*.whl
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+.coverage
 
 # Node
 node_modules/
 .next/
 out/
+.turbo/
 
-# Env files
+# Env files (keep .env.example tracked)
 .env
 .env.local
 .env.*.local
+!.env.example
 
 # Uploads
 uploads/
@@ -25,10 +33,18 @@ uploads/
 .idea/
 *.swp
 *.swo
+*.sublime-*
 
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
 
 # Logs
 *.log
+npm-debug.log*
+
+# AI agent context files
+AGENTS.md
+CLAUDE.md
+.gemini/
