@@ -1,4 +1,4 @@
-# ContractIQ 🧠
+# ContractIQ 
 
 **AI-Powered Contract Intelligence Platform**
 
@@ -6,7 +6,7 @@ ContractIQ transforms static legal documents into actionable business intelligen
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Automated Clause Extraction**: Identifies and categorizes key clauses (Liability, Indemnification, Termination, Data Privacy, etc.).
 - **Intelligent Risk Scoring**: Flags non-standard language and assigns severity levels (Low, Medium, High, Critical) with a 0-10 overall contract score.
@@ -15,14 +15,14 @@ ContractIQ transforms static legal documents into actionable business intelligen
 - **Multi-Tenant Dashboard**: Secure, company-isolated environment with analytics on total contracts and risk distribution.
 - **Format Support**: Processes both PDF and DOCX files.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: Next.js 15 (App Router), React, Tailwind CSS, Clerk (Auth)
 - **Backend**: FastAPI (Python), SQLAlchemy (Async), Pydantic
 - **Database / Queue**: PostgreSQL (with pgvector), Redis
 - **AI / Parsing**: OpenAI (GPT-4o primary) / Anthropic (Claude fallback), pdfplumber, PyMuPDF, python-docx
 
-## 🏁 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 20+
@@ -72,7 +72,7 @@ You need to configure environment variables for both the frontend and backend.
 
 *(See `CONTRACTIQ_MASTER_CONTEXT.md` for a full configuration reference).*
 
-## 🩺 Verification
+## Verification
 
 Check if the backend services are running correctly:
 ```bash
