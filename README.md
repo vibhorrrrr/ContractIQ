@@ -1,6 +1,6 @@
 <div align="center">
 
-# ContractIQ 🧠
+# ContractIQ
 
 **AI-Powered Contract Intelligence Platform**
 
@@ -18,7 +18,7 @@ Upload any contract → Get instant risk analysis, clause extraction, and execut
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -32,14 +32,14 @@ Upload any contract → Get instant risk analysis, clause extraction, and execut
 
 ---
 
-## 🎬 Preview
+## Preview
 
 > **Screenshots & demo video coming soon** — the platform is under active development.
 > Star the repo to stay updated!
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐         ┌──────────────────┐        ┌────────────┐
@@ -68,7 +68,7 @@ No business logic in routes. No raw SQL outside repositories. Fully async.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 contractiq/
@@ -106,7 +106,7 @@ contractiq/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -120,7 +120,7 @@ contractiq/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -229,7 +229,7 @@ All endpoints (except health) require `Authorization: Bearer <clerk_jwt>`.
 
 ---
 
-## 🧪 Risk Scoring
+## Risk Scoring
 
 ```
 Per-clause weights:  CRITICAL = 3.0  |  HIGH = 2.0  |  MEDIUM = 1.0  |  LOW = 0.2
@@ -244,7 +244,7 @@ Contract score = sum(weights) capped at 10.0
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] **Batch Upload** — upload multiple contracts at once
 - [ ] **Clause Comparison** — side-by-side diff between contract versions
@@ -256,7 +256,7 @@ Contract score = sum(weights) capped at 10.0
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/your-feature`)
@@ -266,7 +266,7 @@ Contract score = sum(weights) capped at 10.0
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
@@ -275,7 +275,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 <div align="center">
 
 **If you find ContractIQ useful, consider giving it a ⭐**
-
-Built with ❤️ for smarter contract management.
 
 </div>
