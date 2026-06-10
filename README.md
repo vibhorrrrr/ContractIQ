@@ -2,7 +2,7 @@
 
 **AI-Powered Contract Intelligence Platform**
 
-ContractIQ transforms static legal documents into actionable business intelligence. By leveraging advanced LLMs, it automatically extracts key clauses, identifies legal risks, generates risk scores, and produces executive summaries—turning days of manual legal review into seconds of automated insight. Every finding is directly traceable to the source text.
+ContractIQ transforms static legal documents into actionable business intelligence. By leveraging advanced LLMs, it automatically extracts key clauses, identifies legal risks, generates risk scores, and produces executive summaries, turning days of manual legal review into seconds of automated insight. Every finding is directly traceable to the source text.
 
 ---
 
